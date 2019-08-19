@@ -1,2 +1,2 @@
 ## myblog
-springboot博客
+使用springboot框架搭建的博客
