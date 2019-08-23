@@ -7,6 +7,7 @@ import okhttp3.*;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
+import java.util.Objects;
 
 @Component
 public class GithubProvider {
@@ -40,7 +41,7 @@ public class GithubProvider {
                 .url("https://api.github.com/user?access_token="+accessToken)
                 .build();
         try (Response response = client.newCall(request).execute()) {
-            String string = response.body().string();
+            String string = Objects.requireNonNull(response.body()).string();
             return JSON.parseObject(string, GithubUser.class);
         } catch (IOException e) {
             e.printStackTrace();
