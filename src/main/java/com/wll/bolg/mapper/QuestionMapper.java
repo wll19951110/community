@@ -3,6 +3,7 @@ package com.wll.bolg.mapper;
 import com.wll.bolg.model.Question;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
@@ -13,6 +14,9 @@ public interface QuestionMapper {
     @Insert("INSERT INTO question (title,description,gmt_create,gmt_modified,creator,comment_count,view_count,like_count,tags) VALUES (#{title},#{description},#{gmtCreate},#{gmtModified},#{creator},#{commentCount},#{viewCount},#{likeCount},#{tags})")
     void insert(Question question);
 
-    @Select("SELECT * from question")
-    List<Question> findList();
+    @Select("SELECT * from question limit #{offset},#{size}")
+    List<Question> findList(@Param("offset") Integer offset,@Param("size") Integer size);
+
+    @Select("SELECT COUNT(1) FROM question")
+    Integer count();
 }
