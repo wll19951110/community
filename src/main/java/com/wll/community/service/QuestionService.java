@@ -1,11 +1,11 @@
-package com.wll.bolg.service;
+package com.wll.community.service;
 
-import com.wll.bolg.dto.PaginationDTO;
-import com.wll.bolg.dto.QuestionDTO;
-import com.wll.bolg.mapper.QuestionMapper;
-import com.wll.bolg.mapper.UserMapper;
-import com.wll.bolg.model.Question;
-import com.wll.bolg.model.User;
+import com.wll.community.dto.PaginationDTO;
+import com.wll.community.dto.QuestionDTO;
+import com.wll.community.mapper.QuestionMapper;
+import com.wll.community.mapper.UserMapper;
+import com.wll.community.model.Question;
+import com.wll.community.model.User;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

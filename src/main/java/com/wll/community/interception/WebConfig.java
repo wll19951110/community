@@ -1,4 +1,4 @@
-package com.wll.bolg.interception;
+package com.wll.community.interception;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;

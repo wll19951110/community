@@ -1,6 +1,6 @@
-package com.wll.bolg.mapper;
+package com.wll.community.mapper;
 
-import com.wll.bolg.model.Question;
+import com.wll.community.model.Question;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;

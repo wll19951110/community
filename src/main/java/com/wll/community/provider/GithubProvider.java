@@ -1,8 +1,8 @@
-package com.wll.bolg.provider;
+package com.wll.community.provider;
 
 import com.alibaba.fastjson.JSON;
-import com.wll.bolg.dto.AccessTokenDTO;
-import com.wll.bolg.dto.GithubUser;
+import com.wll.community.dto.AccessTokenDTO;
+import com.wll.community.dto.GithubUser;
 import okhttp3.*;
 import org.springframework.stereotype.Component;
 

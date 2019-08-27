@@ -1,4 +1,4 @@
-package com.wll.bolg.dto;
+package com.wll.community.dto;
 
 import lombok.Data;
 

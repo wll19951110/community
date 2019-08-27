@@ -1,6 +1,6 @@
-package com.wll.bolg.dto;
+package com.wll.community.dto;
 
-import com.wll.bolg.model.User;
+import com.wll.community.model.User;
 import lombok.Data;
 
 @Data

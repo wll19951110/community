@@ -1,4 +1,4 @@
-package com.wll.bolg.controller;
+package com.wll.community.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

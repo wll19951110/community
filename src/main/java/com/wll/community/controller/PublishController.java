@@ -1,8 +1,8 @@
-package com.wll.bolg.controller;
+package com.wll.community.controller;
 
-import com.wll.bolg.mapper.QuestionMapper;
-import com.wll.bolg.model.Question;
-import com.wll.bolg.model.User;
+import com.wll.community.mapper.QuestionMapper;
+import com.wll.community.model.Question;
+import com.wll.community.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

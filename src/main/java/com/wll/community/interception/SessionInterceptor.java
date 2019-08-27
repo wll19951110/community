@@ -1,7 +1,7 @@
-package com.wll.bolg.interception;
+package com.wll.community.interception;
 
-import com.wll.bolg.mapper.UserMapper;
-import com.wll.bolg.model.User;
+import com.wll.community.mapper.UserMapper;
+import com.wll.community.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.HandlerInterceptor;

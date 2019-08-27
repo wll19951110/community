@@ -1,20 +1,15 @@
-package com.wll.bolg.controller;
+package com.wll.community.controller;
 
 
-import com.wll.bolg.dto.PaginationDTO;
-import com.wll.bolg.dto.QuestionDTO;
-import com.wll.bolg.mapper.UserMapper;
-import com.wll.bolg.model.User;
-import com.wll.bolg.service.QuestionService;
+import com.wll.community.dto.PaginationDTO;
+import com.wll.community.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
-import java.util.List;
 
 @Controller
 public class IndexController {

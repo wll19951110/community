@@ -1,11 +1,11 @@
-package com.wll.bolg.controller;
+package com.wll.community.controller;
 
 
-import com.wll.bolg.dto.AccessTokenDTO;
-import com.wll.bolg.dto.GithubUser;
-import com.wll.bolg.mapper.UserMapper;
-import com.wll.bolg.model.User;
-import com.wll.bolg.provider.GithubProvider;
+import com.wll.community.dto.AccessTokenDTO;
+import com.wll.community.dto.GithubUser;
+import com.wll.community.mapper.UserMapper;
+import com.wll.community.model.User;
+import com.wll.community.provider.GithubProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.UUID;
 

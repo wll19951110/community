@@ -1,4 +1,4 @@
-package com.wll.bolg.model;
+package com.wll.community.model;
 
 import lombok.Data;
 

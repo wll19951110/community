@@ -1,4 +1,4 @@
-package com.wll.bolg;
+package com.wll.community;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
